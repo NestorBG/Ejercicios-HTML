@@ -1,0 +1,10 @@
+.Tarjeta {
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 50px;
+    text-align: center;
+}
+img {
+    width: 300px;
+}
