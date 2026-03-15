@@ -1,0 +1,14 @@
+img {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.Galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: lightseagreen;
+    padding: 5px;
+    justify-content: center;
+}
