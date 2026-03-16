@@ -1,0 +1,36 @@
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+caption { 
+    border: 2px solid black;
+}
+.dias {
+    background-color: lightblue;
+}
+.primeraHora {
+    background-color: bisque;
+}
+.segundaHora {
+    background-color: coral;
+}
+.terceraHora {
+    background-color: aqua;
+}
+.cuartaHora {
+    background-color: darkgrey;
+}
+.quintaHora {
+    background-color: fuchsia;
+}
+.sextaHora {
+    background-color:mediumpurple
+}
+.septimaHora {
+    background-color: mediumturquoise;
+}
