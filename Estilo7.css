@@ -1,0 +1,22 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, minmax (100px, 1fr));
+    height: 100vh;
+    
+}
+.header {
+    background-color: lightblue;
+    grid-column: 1 / -1;
+}
+.menu {
+    background-color: lightpink;
+}
+.contenidoPrincipal {
+    background-color: lightsalmon;
+    grid-column: span 2;
+}
+.footer {
+    background-color: lightslategray;
+    grid-column: 1 / -1 ;
+}
