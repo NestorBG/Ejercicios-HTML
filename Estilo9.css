@@ -1,0 +1,36 @@
+.carta {
+    display: flex ;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.primero {
+    border: 2px solid black;
+    background-color: aquamarine;
+
+}
+.segundo {
+    border: 2px solid black;
+    background-color: rgb(244, 127, 255);
+}
+.tercero {
+    border: 2px solid black;
+    background-color: rgb(255, 246, 127);
+}
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+button {
+    cursor: pointer;
+    height: 30px;
+    margin: 10px;
+    background-color: azure;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
+}
