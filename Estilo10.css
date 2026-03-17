@@ -1,0 +1,26 @@
+input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.enviar {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.enviar:hover {
+    transform: scale(1.1);
+    background-color: lightgray;
+}
+form {
+    width: 300px;
+}
+h1{
+    border: 2px solid rgb(104, 104, 104);
+    border-radius: 20px;
+    text-align: center;
+}
+body {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
